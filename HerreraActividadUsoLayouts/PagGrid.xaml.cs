@@ -7,8 +7,8 @@ public partial class PagGrid : ContentPage
 		InitializeComponent();
 	}
 
-    private void VolverPaginaPri_Clicked(object sender, EventArgs e)
-    {
-		Navigation.PushAsync(new MainPage());
+	private void VolverPaginaPri_Clicked(object sender, EventArgs e)
+	{
+		Navigation.PushAsync(new PagStack());
     }
 }

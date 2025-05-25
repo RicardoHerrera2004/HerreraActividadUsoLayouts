@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HerreraActividadUsoLayouts.PagAbsolute"
+             Title="Pagina Absolute">
+
+    <AbsoluteLayout>
+
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <VerticalStackLayout Padding="20" Spacing="15">
+                <Label Text="Contenido de prueba para scroll"
+                       FontSize="20"
+                       TextColor="White" />
+                <BoxView HeightRequest="1000" Color="LightGray" />
+                <Label Text="Fin del contenido"
+                       FontSize="20"
+                       TextColor="White" />
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Frame HasShadow="True"
+               CornerRadius="30"
+               HeightRequest="60"
+               WidthRequest="60"
+               Padding="0"
+               BackgroundColor="White"
+               AbsoluteLayout.LayoutBounds="20,20,60,60"
+               AbsoluteLayout.LayoutFlags="None">
+            <Image Source="images1.jpeg"
+                   Aspect="AspectFit"
+                   WidthRequest="60"
+                   HeightRequest="60" />
+        </Frame>
+
+        <Button 
+            Text="Ir Al Menu Grid Page"
+            WidthRequest="160"
+            HeightRequest="50"
+            CornerRadius="25"
+            Clicked="IrAlMenuGridPage_clicked"
+            BackgroundColor="Purple"
+            TextColor="White"
+            AbsoluteLayout.LayoutBounds="1,1,160,50"
+            AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+    </AbsoluteLayout>
+</ContentPage>

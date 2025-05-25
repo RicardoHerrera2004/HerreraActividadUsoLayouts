@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HerreraActividadUsoLayouts.PagGrid"
-             Title="PagGrid">
+             Title="Pagina Grid">
     <Grid RowSpacing="0" ColumnSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -20,7 +20,7 @@
         <Button 
             Grid.Row="1" 
             Grid.Column="1"
-            Text="Volver Al Menu Principal"
+            Text="Ir A La Pagina Stack"
             Clicked="VolverPaginaPri_Clicked"
             BackgroundColor="Purple"
             TextColor="White"/>

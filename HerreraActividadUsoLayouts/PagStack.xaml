@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HerreraActividadUsoLayouts.PagStack"
+             Title="Pagina Stack">
+    <VerticalStackLayout>
+        <Border Stroke="White"
+                Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Black"
+                         WidthRequest="40" />
+                <Label Text="Ricardo"
+                       FontSize="25"
+                       FontAttributes="Italic"
+                       VerticalOptions="Center" />
+            </StackLayout>
+        </Border>
+        <Border Stroke="White"
+                Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Black"
+                         WidthRequest="40" />
+                <Label Text="Herrera"
+                       FontSize="20"
+                       VerticalOptions="Center" />
+            </StackLayout>
+        </Border>
+        <Border Stroke="White"
+                Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Black"
+                         WidthRequest="40" />
+                <Label Text="Acurio"
+                       FontSize="37"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center" />
+            </StackLayout>
+        </Border>
+
+        <Button 
+    Text="Ir A La Pagina Flex"
+    Clicked="IrPaginaFlex_clicked"
+    BackgroundColor="Purple"
+    TextColor="White"/>
+
+    </VerticalStackLayout>
+</ContentPage>
